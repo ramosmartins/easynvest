@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DojoDDD.Domain\DojoDDD.Domain.csproj" />
+    <ProjectReference Include="..\DojoDDD.Infra.Repository\DojoDDD.Infra.Repository.csproj" />
+    <ProjectReference Include="..\DojoDDD.Service\DojoDDD.Service.csproj" />
+  </ItemGroup>
+
+</Project>
